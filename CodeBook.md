@@ -18,36 +18,68 @@ Measurement label					Meaning (taken on all measurements for a subject performin
 (Mean/Std = mean/standard deviation)		Note that each measurement with “_Mean” after the label means that several sets of
 							measurements for the same subject performing a single activity have been averaged							so the final result is the mean of mean values.
 
-tBodyAcc(Mean/Std)X_Mean			(mean/standard deviation) of the body linear acceleration along the X-axis (units of g)
-tBodyAcc(Mean/Std)Y_Mean			(mean/standard deviation) of the body linear acceleration along the Y-axis (units of g)
-tBodyAcc(Mean/Std)Z_Mean			(mean/standard deviation) of the body linear acceleration along the Z-axis (units of g)
-tGravityAcc(Mean/Std)X_Mean 			(mean/standard deviation) of the gravity acceleration along the X-axis (units of g)
-tGravityAcc(Mean/Std)Y_Mean 			(mean/standard deviation) of the gravity acceleration along the Y-axis (units of g)
-tGravityAcc(Mean/Std)Z_Mean			(mean/standard deviation) of the gravity acceleration along the Z-axis (units of g)
-tBodyAccJerk(Mean/Std)X_Mean 		(mean/standard deviation) of the body linear acceleration along the X-axis for jerk motion (units of g)
-tBodyAccJerk(Mean/Std)Y_Mean 		(mean/standard deviation) of the body linear acceleration along the Y-axis for jerk motion (units of g)
-tBodyAccJerk(Mean/Std)Z_Mean 		(mean/standard deviation) of the the body linear acceleration along the Z-axis for jerk motion (units of g)
-tBodyGyro(Mean/Std)X_Mean			(mean/standard deviation) of the body angular velocity along the X-axis (units of radians/second)
-tBodyGyro(Mean/Std)Y_Mean 			(mean/standard deviation) of the body angular velocity along the Y-axis (units of radians/second)
-tBodyGyro(Mean/Std)Z_Mean 			(mean/standard deviation) of the body angular velocity along the Z-axis (units of radians/second)
-tBodyGyroJerk(Mean/Std)X_Mean		(mean/standard deviation) of the body angular velocity along the X-axis for jerk motion (units of radians/second)
-tBodyGyroJerk(Mean/Std)Y_Mean		(mean/standard deviation) of the body angular velocity along the Y-axis for jerk motion (units of radians/second)
-tBodyGyroJerk(Mean/Std)Z_Mean		(mean/standard deviation) of the body angular velocity along the Z-axis for jerk motion (units of radians/second)
-tBodyAccMag(Mean/Std)_Mean			(mean/standard deviation) magnitude of the body linear acceleration calculated using the Euclidean norm (units of g)
-tGravityAccMag(Mean/Std)_Mean		(mean/standard deviation) magnitude of the gravity acceleration calculated using the Euclidean norm (units of g)
-tBodyAccJerkMag(Mean/Std)_Mean 		(mean/standard deviation) magnitude of the body linear acceleration for jerk motion calculated using the Euclidean norm (units of g)
-tBodyGyroMag(Mean/Std)_Mean			(mean/standard deviation) magnitude of the body angular velocity calculated using the Euclidean norm (units of radians/second)
-tBodyGyroJerkMag(Mean/Std)_Mean		(mean/standard deviation) magnitude of the body angular velocity for jerk motion calculated using the Euclidean norm (units of radians/second)
-fBodyAcc(Mean/Std)X_Mean			(mean/standard deviation) of the FFT of the body linear acceleration along the X-axis (units of Hz)
-fBodyAcc(Mean/Std)Y_Mean			(mean/standard deviation) of the FFT of the body linear acceleration along the Y-axis (units of Hz)
-fBodyAcc(Mean/Std)Z_Mean 			(mean/standard deviation) of the FFT of the body linear acceleration along the Z-axis (units of Hz)
-fBodyAccJerk(Mean/Std)X_Mean			(mean/standard deviation) of the FFT of the body linear acceleration along the X-axis for jerk motion (units of Hz)
-fBodyAccJerk(Mean/Std)Y_Mean 		(mean/standard deviation) of the FFT of the body linear acceleration along the Y-axis for jerk motion (units of Hz)
-fBodyAccJerk(Mean/Std)Z_Mean			(mean/standard deviation) of the FFT of the body linear acceleration along the Z-axis for jerk motion (units of Hz)
-fBodyGyro(Mean/Std)X_Mean 			(mean/standard deviation) of the FFT of the body angular velocity along the X-axis (units of Hz)
-fBodyGyro(Mean/Std)Y_Mean			(mean/standard deviation) of the FFT of the body angular velocity along the Y-axis (units of Hz)
-fBodyGyro(Mean/Std)Z_Mean			(mean/standard deviation) of the FFT of the body angular velocity along the Z-axis (units of Hz)
-fBodyAccMag(Mean/Std)_Mean			(mean/standard deviation) of the FFT of the body linear acceleration calculated using the Euclidean norm (units of Hz)
-fBodyBodyAccJerkMag(Mean/Std)_Mean 	(mean/standard deviation) of the FFT of the body linear acceleration for jerk motion calculated using the Euclidean norm (units of Hz)
-fBodyBodyGyroMag(Mean/Std)_Mean		(mean/standard deviation) of the FFT of the body angular velocity calculated using the Euclidean norm (units of Hz)
-fBodyBodyGyroJerkMag(Mean/Std)_Mean 	(mean/standard deviation) of the FFT of the body angular velocity for jerk motion calculated using the Euclidean norm (units of Hz)
+tBodyAcc(Mean/Std)X_Mean: 			(mean/standard deviation) of the body linear acceleration along the X-axis (units of g)
+
+tBodyAcc(Mean/Std)Y_Mean:			(mean/standard deviation) of the body linear acceleration along the Y-axis (units of g)
+
+tBodyAcc(Mean/Std)Z_Mean:			(mean/standard deviation) of the body linear acceleration along the Z-axis (units of g)
+
+tGravityAcc(Mean/Std)X_Mean: 			(mean/standard deviation) of the gravity acceleration along the X-axis (units of g)
+
+tGravityAcc(Mean/Std)Y_Mean: 			(mean/standard deviation) of the gravity acceleration along the Y-axis (units of g)
+
+tGravityAcc(Mean/Std)Z_Mean:			(mean/standard deviation) of the gravity acceleration along the Z-axis (units of g)
+
+tBodyAccJerk(Mean/Std)X_Mean: 		(mean/standard deviation) of the body linear acceleration along the X-axis for jerk motion (units of g)
+
+tBodyAccJerk(Mean/Std)Y_Mean: 		(mean/standard deviation) of the body linear acceleration along the Y-axis for jerk motion (units of g)
+
+tBodyAccJerk(Mean/Std)Z_Mean: 		(mean/standard deviation) of the the body linear acceleration along the Z-axis for jerk motion (units of g)
+
+tBodyGyro(Mean/Std)X_Mean:			(mean/standard deviation) of the body angular velocity along the X-axis (units of radians/second)
+
+tBodyGyro(Mean/Std)Y_Mean: 			(mean/standard deviation) of the body angular velocity along the Y-axis (units of radians/second)
+
+tBodyGyro(Mean/Std)Z_Mean: 			(mean/standard deviation) of the body angular velocity along the Z-axis (units of radians/second)
+
+tBodyGyroJerk(Mean/Std)X_Mean:		(mean/standard deviation) of the body angular velocity along the X-axis for jerk motion (units of radians/second)
+
+tBodyGyroJerk(Mean/Std)Y_Mean:		(mean/standard deviation) of the body angular velocity along the Y-axis for jerk motion (units of radians/second)
+
+tBodyGyroJerk(Mean/Std)Z_Mean:		(mean/standard deviation) of the body angular velocity along the Z-axis for jerk motion (units of radians/second)
+
+tBodyAccMag(Mean/Std)_Mean:			(mean/standard deviation) magnitude of the body linear acceleration calculated using the Euclidean norm (units of g)
+
+tGravityAccMag(Mean/Std)_Mean:		(mean/standard deviation) magnitude of the gravity acceleration calculated using the Euclidean norm (units of g)
+
+tBodyAccJerkMag(Mean/Std)_Mean: 		(mean/standard deviation) magnitude of the body linear acceleration for jerk motion calculated using the Euclidean norm (units of g)
+
+tBodyGyroMag(Mean/Std)_Mean:			(mean/standard deviation) magnitude of the body angular velocity calculated using the Euclidean norm (units of radians/second)
+
+tBodyGyroJerkMag(Mean/Std)_Mean:		(mean/standard deviation) magnitude of the body angular velocity for jerk motion calculated using the Euclidean norm (units of radians/second)
+
+fBodyAcc(Mean/Std)X_Mean:			(mean/standard deviation) of the FFT of the body linear acceleration along the X-axis (units of Hz)
+
+fBodyAcc(Mean/Std)Y_Mean:			(mean/standard deviation) of the FFT of the body linear acceleration along the Y-axis (units of Hz)
+
+fBodyAcc(Mean/Std)Z_Mean: 			(mean/standard deviation) of the FFT of the body linear acceleration along the Z-axis (units of Hz)
+
+fBodyAccJerk(Mean/Std)X_Mean:			(mean/standard deviation) of the FFT of the body linear acceleration along the X-axis for jerk motion (units of Hz)
+
+fBodyAccJerk(Mean/Std)Y_Mean: 		(mean/standard deviation) of the FFT of the body linear acceleration along the Y-axis for jerk motion (units of Hz)
+
+fBodyAccJerk(Mean/Std)Z_Mean:			(mean/standard deviation) of the FFT of the body linear acceleration along the Z-axis for jerk motion (units of Hz)
+
+fBodyGyro(Mean/Std)X_Mean: 			(mean/standard deviation) of the FFT of the body angular velocity along the X-axis (units of Hz)
+
+fBodyGyro(Mean/Std)Y_Mean:			(mean/standard deviation) of the FFT of the body angular velocity along the Y-axis (units of Hz)
+
+fBodyGyro(Mean/Std)Z_Mean:			(mean/standard deviation) of the FFT of the body angular velocity along the Z-axis (units of Hz)
+
+fBodyAccMag(Mean/Std)_Mean:			(mean/standard deviation) of the FFT of the body linear acceleration calculated using the Euclidean norm (units of Hz)
+
+fBodyBodyAccJerkMag(Mean/Std)_Mean: 	(mean/standard deviation) of the FFT of the body linear acceleration for jerk motion calculated using the Euclidean norm (units of Hz)
+
+fBodyBodyGyroMag(Mean/Std)_Mean:		(mean/standard deviation) of the FFT of the body angular velocity calculated using the Euclidean norm (units of Hz)
+
+fBodyBodyGyroJerkMag(Mean/Std)_Mean: 	(mean/standard deviation) of the FFT of the body angular velocity for jerk motion calculated using the Euclidean norm (units of Hz)
